@@ -21,7 +21,7 @@ len <- length(all.numbers)
 ### Bonus ###
 
 # Create a vector `odd` that holds the odd numbers from 1 to 100
-
+odd <- seq(1,100,2)
 
 # Using the `all` and `%%` operators, confirm that all of the numbers in your `odd` vector are odd
-
+all(odd%%2==1)
